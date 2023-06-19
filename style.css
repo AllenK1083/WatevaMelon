@@ -1,0 +1,86 @@
+body {
+  background: black;
+  color: white
+}
+
+ ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+    }
+    
+    ul.navbar li {
+      float: left;
+    }
+    
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.navbar li a:hover {
+      background-color: #111;
+    }
+
+
+h1 {
+  text-align: center;
+  padding: 45px
+}
+
+iframe {
+  flex: 100px;
+}
+
+.friendshipVideo {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+ 
+}
+
+img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.questions {
+  button {
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
