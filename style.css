@@ -41,46 +41,32 @@ iframe {
   flex: 100px;
 }
 
-.friendshipVideo {
-  max-width: 50%;
-  display: block;
-  margin: 0 auto;
+
+footer {
+  margin-top: 100px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
   position: fixed;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 0;
- 
+  width: 100%;
+  bottom: 0;
 }
 
-img {
-  max-width: 50%;
-  display: block;
-  margin: 0 auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+.iconsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
 }
 
-
-button {
-  display: block;
-  margin: 0 auto;
-  position: fixed;
-  top: 85%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.questions {
-  button {
-    display: block;
-    margin: 0 auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
+.icons{
+    background-color: #333;
+    background-opacity: 0.5;
+    width: 50px;
+    height: 50px;
   }
-}
+
+  footer li {
+    list-style-type: none;
+    margin: 5px;
+  }
